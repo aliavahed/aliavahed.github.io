@@ -3,13 +3,13 @@ layout: post
 title: Setting up Git on Chromebook
 ---
 
-## HELLO!
+## Hello!
 
 So you've bought a Chromebook because you thought it was cool, and now you've discovered you can't do _half_ the things you didn't realise you needed to do. Never fear! Most of these things can be achieved using a Chromebook, if you know where to look.
 
 The Chromebook does have a terminal built in (crosh - hit ```ctrl``` + ```alt``` + ```T``` to access it), but it's not very good. Chromebooks are designed to obfuscate any file shenanigans from the user, so you can't actually go all Indiand Jones on your machine from crosh.
 
->Enter Termux
+###Enter Termux
 
 Termux is actually designed as an Android app, which means it's designed for people who are so terminal-obsessed that they want it on their phone. Jeez. Anyway, if you've got a relatively new Chromebook (your model was released in or since 2017), you can install Android apps. Head to the [Termux website](https://termux.com/) and download the app from the Play store.
 
