@@ -7,4 +7,4 @@ title: Codeacademy Python screenshots
 
 Finally something that's as easy to do on my chromebook as it is on any other machine. Below is my screenshot of lessons completed
  
-!(img/python.png "Python courses")
+![](https://raw.githubusercontent.com/aliavahed/aliavahed.github.io/master/img/python.png)
