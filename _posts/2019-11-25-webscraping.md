@@ -26,5 +26,5 @@ which finds all strings that start with ```text\?doc=Perseus``` and capture up u
 
   
 ### Python Codeacademy lessons
-
+  
 ![](https://raw.githubusercontent.com/aliavahed/aliavahed.github.io/master/img/python3.png)
