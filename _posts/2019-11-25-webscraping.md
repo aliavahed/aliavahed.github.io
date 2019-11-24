@@ -16,10 +16,10 @@ The exercise required us to scrape the “Dispatch”, download all issues of �
 **replace** ```http://www.perseus.tufts.edu/hopper/dltext\?```
 4. Save the output as a text file
 5. Run wget in Termux (should already be installed as part of Termux setup)
-6. Enter ```wget -i perseusissues.txt``` in the terminal to begin an enormous download.
+6. Enter ```wget -i perseusissues.txt``` in the terminal to begin an enormous download.  
+  
 
-
-
+  
 ### Python Codeacademy lessons
 
-![](https://raw.githubusercontent.com/aliavahed/aliavahed.github.io/master/img/python2.png)
+![](https://raw.githubusercontent.com/aliavahed/aliavahed.github.io/master/img/python3.png)
