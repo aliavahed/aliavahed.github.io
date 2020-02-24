@@ -24,7 +24,34 @@ for f in lof:
   with open(target+date+".txt", 'w') as f9:       # name new file for each issue by its date
     f9.write(newF)
  ````
+#### 1b Cleaning up each entry in an issue
 
+````import re, os
+
+source = "./inputs/"
+target = "./outputs/"
+
+lof = os.listdir(source)
+for f in lof:
+  issueList = []
+  with open(source + f, 'r') as fin:
+    count = 0                 # counter to build into ID names
+    copy = fin.read()
+    date = re.search(r'<date value="([\d-]+)"',copy).group(1)  # extract date of an issue
+    articles = re.split("<div3 ", copy)  # split issue into separate entries
+    for article in articles[1:]:
+      article = "<div3 " + article  # restore missing tag from beginning of entry
+      entry = re.search(r'type="([^\"]+)"',article).group(1) # extract entry type
+      article = re.sub("<[^<]+>", "", article) # strip tags
+      article.strip() # strip white space
+      entryID = date + "_" + entry + "_" + str(count) # build ID
+      article = article + "\n"
+      issueList.append(entryID + " " + article) # precede each entry with its ID
+      count+=1
+    anIssue = "\n".join(issueList) # merge all entries into one file
+  with open(target+date+".txt", 'w') as f9:
+    f9.write(anIssue)
+    ````
   
 ### Python Codeacademy lessons
   
