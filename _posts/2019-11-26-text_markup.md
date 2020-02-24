@@ -10,7 +10,7 @@ _It is time to play with the Daily Dispatch again, and its old-timey articles_
 
 #### 1a Cleaning individual issues
 
-```import re, os
+``` import re, os
 
 source = "./inputs/"
 target = "./outputs/"
@@ -26,7 +26,7 @@ for f in lof:
  ```
 #### 1b Cleaning up each entry in an issue
 
-```import re, os
+``` import re, os
 
 source = "./inputs/"
 target = "./outputs/"
