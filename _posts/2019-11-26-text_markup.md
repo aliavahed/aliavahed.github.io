@@ -10,7 +10,7 @@ _It is time to play with the Daily Dispatch again, and its old-timey articles_
 
 #### 1a Cleaning individual issues
 
-````import re, os
+```import re, os
 
 source = "./inputs/"
 target = "./outputs/"
@@ -23,10 +23,10 @@ for f in lof:
     newF = re.sub("<[^<]+>", "",copy)       # remove xml tags
   with open(target+date+".txt", 'w') as f9:       # name new file for each issue by its date
     f9.write(newF)
- ````
+ ```
 #### 1b Cleaning up each entry in an issue
 
-````import re, os
+```import re, os
 
 source = "./inputs/"
 target = "./outputs/"
@@ -51,7 +51,7 @@ for f in lof:
     anIssue = "\n".join(issueList) # merge all entries into one file
   with open(target+date+".txt", 'w') as f9:
     f9.write(anIssue)
-    ````
+ ```
   
 ### Python Codeacademy lessons
   
