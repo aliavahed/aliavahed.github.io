@@ -1,6 +1,6 @@
 ---
 layout: post
-title: L09 Georeferencing with QGIS
+title: L09 Georeferencing with QGIS and Python lessons 11 & 12
 ---
 
 ## Hello!
