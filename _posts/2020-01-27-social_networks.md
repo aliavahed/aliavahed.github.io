@@ -5,7 +5,7 @@ title: L13 Social Network Analysis
 
 _More ways to play with the Dispatch_
 
-In this assignment we needed to prepare places from the Dispatch for social network analysis. We had to created nodes for each of the places in the Daily Dispatch, and create edges between any places that co-occurred in an article. Then we had to import this into Gephi onto a map in order to observe the networks created. Try as I might, I *could not* get Gephi to work, it crashed over and over. Below, the code I used to create the nodes and edges file. Note, the nodes file uses the output from L11, where I created a csv of all TGNS with their frequencies, lat and lon.
+In this assignment we needed to prepare places from the Dispatch for social network analysis. We had to created nodes for each of the places in the Daily Dispatch, and create edges between any places that co-occurred in an article. Then we had to import this into Gephi onto a map in order to observe the networks created. Try as I might, I *could not* get Gephi to work, it crashed over and over. I used the rollapp Gephi online tool, but it appears to be too unstable even for small problems - it could not even get through the Star Wars class work, let alone the larger and more complex Dispatch task. Below, the code I used to create the nodes and edges file. Note, the nodes file uses the output from L11, where I created a csv of all TGNS with their frequencies, lat and lon.
   
     
 ```
